@@ -1,0 +1,14 @@
+﻿<Window x:Class="WPFBookstore.Home"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFBookstore"
+        mc:Ignorable="d"
+        Title="Home" Height="400" Width="250" Background="#696969">
+    <Grid>
+        <Button Content="Add Book" Click="Add_Click" HorizontalAlignment="Center" Margin="0,32,0,0" VerticalAlignment="Top" Width="87"/>
+        <Button Content="Books list" Click="List_Click" HorizontalAlignment="Center" Margin="0,72,0,0" VerticalAlignment="Top" Width="86"/>
+
+    </Grid>
+</Window>

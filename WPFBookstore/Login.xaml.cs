@@ -40,6 +40,10 @@ namespace WPFBookstore
                     {
                         found = true;
                         MessageBox.Show("Login Successful");
+                        Home homepage = new Home();
+                        homepage.Show();
+                        conn.CloseAsync();
+                        Close();
                     }
                     if (found == false)
                     {
