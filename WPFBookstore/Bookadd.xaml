@@ -5,8 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFBookstore"
         mc:Ignorable="d"
-        Title="Bookadd" Height="450" Width="800" Background="#696969">
+        Title="Bookadd" Height="400" Width="250" Background="#696969" WindowStartupLocation="CenterScreen">
     <Grid>
-        
+        <Button Content="Add book" Click="addbook"  HorizontalAlignment="Center" Height="40" Margin="0,318,0,0" VerticalAlignment="Top" Width="136"/>
+        <Label Content="Book name:" HorizontalAlignment="Center" Height="25" Margin="0,10,0,0" VerticalAlignment="Top" Width="76"/>
+        <TextBox Name="Bookname" HorizontalAlignment="Center" Height="26" Margin="0,43,0,0" TextWrapping="Wrap" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="160"/>
+        <Label Content="Book author:" HorizontalAlignment="Left" Height="25" Margin="87,94,0,0" VerticalAlignment="Top" Width="96"/>
+        <Label Content="Book name:" HorizontalAlignment="Center" Height="25" Margin="0,10,0,0" VerticalAlignment="Top" Width="76"/>
+        <TextBox Name="Bookauthor" HorizontalAlignment="Center" Height="26" Margin="0,134,0,0" TextWrapping="Wrap" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="160"/>
+        <Label Content="Quantity:" HorizontalAlignment="Center" Height="25" VerticalAlignment="Center" Width="66"/>
+        <ComboBox Name="Quantitybox" HorizontalAlignment="Center" Margin="0,210,0,0" VerticalAlignment="Top" Width="120" />
+
     </Grid>
 </Window>

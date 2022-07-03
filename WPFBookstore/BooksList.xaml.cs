@@ -26,7 +26,7 @@ namespace WPFBookstore
             InitializeComponent();
             try
             {
-                using (var conn = new NpgsqlConnection("Host = localhost; Username = postgres; Password = password1; Database = WPFBookstore"))
+                using (var conn = new NpgsqlConnection("Host = abul.db.elephantsql.com; Username = kbfzlkun; Password = ECwzVivOITJU5d0yDNztrGvMMx_HovNS; Database = kbfzlkun"))
                 {
                     conn.OpenAsync();
                     string sql = "SELECT * from books";

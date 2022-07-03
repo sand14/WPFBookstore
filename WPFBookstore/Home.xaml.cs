@@ -31,6 +31,8 @@ namespace WPFBookstore
         }
         private void Add_Click(object sender, RoutedEventArgs e)
         {
+            Bookadd bookadd = new Bookadd();
+            bookadd.Show();
 
         }
     }

@@ -5,10 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFBookstore"
         mc:Ignorable="d"
-        Title="Home" Height="400" Width="250" Background="#696969">
+        Title="Home" Height="400" Width="250" Background="#696969" WindowStartupLocation="CenterScreen">
     <Grid>
-        <Button Content="Add Book" Click="Add_Click" HorizontalAlignment="Center" Margin="0,32,0,0" VerticalAlignment="Top" Width="87"/>
-        <Button Content="Books list" Click="List_Click" HorizontalAlignment="Center" Margin="0,72,0,0" VerticalAlignment="Top" Width="86"/>
+        <Button Content="Add Book" Click="Add_Click" HorizontalAlignment="Center" Margin="0,32,0,0" VerticalAlignment="Top" Width="106" Height="35"/>
+        <Button Content="Books list" Click="List_Click" HorizontalAlignment="Center" Margin="0,72,0,0" VerticalAlignment="Top" Width="106" Height="38"/>
 
     </Grid>
 </Window>
